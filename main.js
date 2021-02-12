@@ -31,7 +31,7 @@ let getMess = () => {
         console.log(err);
     })
 }
-document.querySelector('#btn-send').addEventListener('click', function(){
+document.querySelector('#btnSend').addEventListener('click', function(){
     let today = new Date();
     let mess = document.querySelector('#mess').value;
     let date = `${today.getDate()} -  ${today.getMonth()} - ${today.getFullYear()}`;
